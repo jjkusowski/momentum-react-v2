@@ -179,4 +179,5 @@ export {
   NotificationSystem,
   AriaToolbar,
   Slider as SliderNext,
+  SelectSearch,
 } from './components';
