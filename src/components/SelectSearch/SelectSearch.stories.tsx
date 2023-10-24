@@ -8,6 +8,7 @@ import argTypes from './SelectSearch.stories.args';
 import Documentation from './SelectSearch.stories.docs.mdx';
 import ListItemBase from '../ListItemBase';
 import { ListItem } from 'src/legacy';
+import Text from '../Text';
 
 export default {
   title: 'Momentum UI/SelectSearch',
@@ -29,7 +30,7 @@ Example.argTypes = { ...argTypes };
 Example.args = {
   children: 'Example',
   items: ['item1', 'item2'],
-  listComponent: ListItemBase,
+  listComponent: Text,
 };
 
 // TODO: Inject additional stories here.
